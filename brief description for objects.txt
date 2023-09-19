@@ -1,0 +1,58 @@
+--------------------------------proc-------------------------------
+1- U_login -----this is a stored proce take the user name and pass to login the user names are ('ins','stu','adm','man')
+
+
+2- assignexam --- this is a stored proce available just for instructors take his ID , the code of the course that he teach
+, the final degree of the exam , exam date , start time and end time
+
+3-assignQtoEx(@us_id int,@ex_id int,@q_id int,@q_type char(5)) ----this stored proce available just for instructors that
+takes the user Id to make sure he is logged in , exam id,question id(its id in the question pool) and the type of the 
+question must be('mcq','tf','tex')
+
+4-enterexam -----this a stored proce used by student to enter an exam and it takes the student id and the exam id
+and it takes the id of the questions of the exam ,id of student , exam id and store them in the table st_answers
+and make the answer of all questions empty string 
+
+5-ans_quest @st_id int,@ex_id int,@q_id int,@ans nvarchar(100)---takes the student id , exam id , question id and 
+the answer of the question  it takes the answer and update the answer of the question in the table st_answers 
+
+6-finishEx takes the exam id and student id --- it calculates the result of the exam and store it in the table st_results
+
+7- U_logout--------sp take the username and renable all the triggers which specify the permission of the user
+
+8-getStCourses @st_id int --- sp used to get student courses by his id--
+
+9-get_C_St @code char(5) ------sp to get the student of some course by the course code
+
+10- getStCoursesbyN @st_fn nvarchar(50) ------sp to get the courses of student by name (multiple choice to search)
+
+--------------------------------triggers-------------------------------------------
+10-we used a collection of triggers with the same way of naming (insert_table_name or update_table_name or ...)
+with the basic tables of the system witch prevent any action on these tables until you login uing a valid user in the proce
+of login the triggers will be disabled depending on the user and when you logout these triggers will be enabled again
+all the triggers in one file named (triggers)
+==========> insert_instructor ---trigger to prevent inserting any instructor 
+==========> update_instructor ---trigger to prevent updating any instructor 
+==========> delete_instructor ---trigger to prevent deleting any instructor 
+===========we made the same triggers with the same way of naming with the tables(Track,branch,course,department,exam,choosQ
+TFQ,TexQ....) this triggers are disabled when a permitted user login and enabled when logout
+
+--------------------------------------views------------------------------------------------
+11-we used a collection of wiews to display results such as (StudentResult) to display the rsults of the students 
+and if they success or not --- all the views in on file named(views)
+
+----StudentData --->display the data of the users 
+----CourseData ---->display the data of the courses
+----ExamData ------> display the data of the exam
+----StudentResult---> display the results of the students
+----StudentCourses---> display the courses of the student
+----and another  some views to display the data of most tables
+
+--------------------------------------------database ------------------
+12- the database was created with a file group and datafiles in a file named (create_db)
+-----there are three schemas (Person,Exams,Tracks) created in afile named (schemas)
+------all the tables creation in afile named (create_tables)
+
+
+
+

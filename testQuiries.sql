@@ -1,0 +1,35 @@
+----username 'adm' pass '123' ,username 'man' pass '123',username 'ins' pass '123',username 'stu' pass '123'
+
+--U_login 'ins','123'
+--assignexam(@I_id int,@Ccode char(5),@F_d int,@e_d date,@e_s_t time,@e_e_t time)
+--assignexam 3,'DN1',20,'2022-09-17','14:00:00','15:00:00'
+--assignQtoEx(@us_id int,@ex_id int,@q_id int,@q_type char(5))
+--assignQtoEx 3,14,5,'mcq'
+--assignQtoEx 3,14,2,'mcq'
+--assignQtoEx 3,14,12,'mcq'
+--assignQtoEx 3,14,10,'mcq'
+--assignQtoEx 3,14,1,'mcq'
+--assignQtoEx 3,14,3,'mcq'
+--assignQtoEx 3,14,2,'tf'
+--assignQtoEx 3,14,1,'tf'
+--assignQtoEx 3,14,1,'tex'
+--U_logout 'ins'
+--U_login 'stu','123'
+--enterexam 2,14
+--ans_quest @st_id int,@ex_id int,@q_id int,@ans nvarchar(100)
+--ans_quest 2,14,40,'4'
+--ans_quest 2,14,41,'System.UInt64'
+--ans_quest 2,14,42,'A structure can contain protected data membe'
+--ans_quest 2,14,43,'c = a + b;'
+--ans_quest 2,14,44,'4'
+--ans_quest 2,14,45,' int a = 32, b = 40.6;'
+--ans_quest 2,14,46,'TRUE'
+--ans_quest 2,14,47,'FALSE'
+--ans_quest 2,14,48,'1 byte'
+--finishEx 14,2
+--select *from StudentResult  --view
+--U_logout 'stu'
+
+---- update Tracks.track 
+-----set track_id =10 where track_id =1 -----this command is not available untill the manager login with the user 'man'
+------delete from Person.users where u_id=4 ---- this command is not permitted untill admin login with the username'adm'

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="exam2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="AMMAR_PC:AMMAR_PC\AGR">
+          <Created>2022-09-17T03:19:28.034347+02:00</Created>
+          <Type>SQL</Type>
+          <Server>AMMAR_PC</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ans_quest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ans_quest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="argument.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>argument.sql</FullPath>
+        </FileNode>
+        <FileNode Name="assignex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>assignex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="assignqes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>assignqes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>create table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="createdb.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>createdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DisplayData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DisplayData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="enterExam.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>enterExam.sql</FullPath>
+        </FileNode>
+        <FileNode Name="finishExa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>finishExa.sql</FullPath>
+        </FileNode>
+        <FileNode Name="getCouOfSt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>getCouOfSt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AMMAR_PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AMMAR_PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="logout.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>logout.sql</FullPath>
+        </FileNode>
+        <FileNode Name="schem.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>schem.sql</FullPath>
+        </FileNode>
+        <FileNode Name="triggers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>triggers.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

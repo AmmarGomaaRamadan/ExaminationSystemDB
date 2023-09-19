@@ -1,0 +1,15 @@
+------------------user for Sql server authentication----------
+uasername  |   pass
+---------------------------
+instructor |	instructor 
+student1   |	student1 
+manager    |     manager 
+
+---------------------------user of the database stored in the table users
+
+username  |  pass
+---------------------
+ins       | 123
+adm       | 123
+man       | 123
+stu       | 123
